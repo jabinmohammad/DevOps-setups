@@ -6,7 +6,7 @@
         url: "https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.80/bin/apache-tomcat-9.0.80.tar.gz"
         dest: "/root/"
 
-    - name: untar the apache file
+    - name: Untar the apache file
       command: tar -zxvf apache-tomcat-9.0.80.tar.gz
         #unarchive:
         #src: "apache-tomcat-9.0.80.tar.gz"
