@@ -14,3 +14,5 @@ sudo yum install iptables -y
 yum install conntrack -y
 minikube start --driver=docker --force
 minikube status 
+
+
